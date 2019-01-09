@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <title>$title$ - MTH 410</title>
+  <meta charset="utf-8" />
+  <link href="http://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="/css/github.css" />
+  <link rel="stylesheet" type="text/css" href="/css/syntax.css" />
+  <link rel="alternate"
+        type="application/atom+xml"
+        title="MTH 410"
+        href="/atom.xml" />
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+  <div class="navbar">
+    <header>
+      <hgroup>
+        <h1><a href="/index.html">Algebraic Topology (MTH 410)</a></h1>
+      </hgroup>
+    </header>
+    <nav id="mainnav">
+      <div id="topmenu">
+        <menu>
+          <a href="/index.html">Course information</a>
+	  $for(pages)$
+          <a href="$url$">$title$</a>
+	  $endfor$
+	  $if(sortedassignments)$
+          <a href="/assignments.html">Exercise sheets</a>
+	  $endif$
+	  $if(sortedposts)$
+          <a href="/posts.html">Blog</a>
+	  $endif$
+        </menu>
+	</div>
+    </nav>
+    </div>
+    <section id="pagecontent">
+      $haspdf$
+        $body$
+    </section>
+<section id="posts" class="sidenav">
+$if(sortedassignments)$
+    <h2>Latest exercise sheet</h2>
+    <ul>
+	  $for(sortedassignments)$
+          <li><a href="$url$">Exercise sheet $filedigit$</a>
+&nbsp;    $haspdf$
+	  </li>
+	  $endfor$
+    </ul>
+    <p><a href="/assignments.html">All exercise sheets&hellip;</a></p>
+$endif$
+
+$if(sortedposts)$
+    <h2>Recent blog posts</h2>
+    <ul>
+	  $for(sortedposts)$
+          <li><a href="$url$">$title$</a>
+	    &nbsp; $haspdf$
+          </li>
+	  $endfor$
+    </ul>
+    <p><a href="/posts.html">All posts&hellip;</a></p>
+
+    <h2>Blog posts' tags</h2>
+    <p class="tags">$taglist$</p>
+$endif$
+</section>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <title>$title$ - Thoughts</title>
+  <meta charset="utf-8" />
+  <link href="http://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="/css/github.css" />
+  <link rel="stylesheet" type="text/css" href="/css/syntax.css" />
+  <link rel="alternate"
+        type="application/atom+xml"
+        title="Musings about FP and CS (Atom)"
+        href="/atom.xml" />
+</head>
+<body>
+    <header>
+      <hgroup>
+        <h1><a href="/index.html">Thoughts</a></h1>
+      </hgroup>
+    </header>
+    <nav id="mainnav">
+        <menu>
+          <a href="/index.html">Home</a>
+	  $for(pages)$
+          <a href="$url$">$title$</a>
+	  $endfor$
+	  $if(sortedposts)$
+          <a href="/posts.html">Blog</a>
+	  $endif$
+          <a href="/atom.xml">Atom feed</a>
+        </menu>
+    </nav>
+    <section>
+        $body$
+    </section>
+$if(sortedposts)$
+<section id="posts">
+    <h2>Tags</h2>
+    <p>$taglist$</p>
+</section>
+$endif$
+</body>
+</html>

@@ -1,0 +1,22 @@
+<article>
+<header>
+  <h1>
+    $if(title)$
+    $title$
+    $else$
+    $strippedfile$
+    $endif$
+  </h1>
+  <p class="author">
+$if(author)$
+by <a href="/poets/$author$.html">$author$</a>
+$endif$
+$if(excerpt)$
+(from, "$excerpt$")
+$endif$</p>
+</header>
+
+<section>
+$body$
+</section>
+</article>

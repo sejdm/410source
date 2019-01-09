@@ -1,0 +1,8 @@
+#!/bin/sh
+for i in $*
+do
+  file="$(echo $i | sed 's#assignments/\(.*\)#\1#')"
+  filename="${file%.*}"
+  pandoc -o assignments/pdfs/"$filename".pdf assignments/$file
+done
+

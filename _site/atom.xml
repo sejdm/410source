@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Shane - RSS feed</title>
+    <link href="http://blog.shane/atom.xml" rel="self" />
+    <link href="http://blog.shane" />
+    <id>http://blog.shane/atom.xml</id>
+    <author>
+        <name>Shane</name>
+        <email>shane.dmello@gmail.com</email>
+    </author>
+    <updated>Unknown</updated>
+    
+</feed>
