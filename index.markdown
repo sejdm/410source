@@ -8,13 +8,16 @@ Please check this website regularly for any updates.
 
 Quizzes may be held during any lecture/tutorial and at any time. Exercises are not to be submitted. They are for your own practice, especially to prepare for the quizzes and examinations.
 
+**NEW** A blog article on "[clever homotopy equivalences](https://www.math3ma.com/blog/clever-homotopy-equivalences)"
+
+
 ## Grading scheme
 
 - Quizzes: 20%
 - Midsem: 30%
 - Final: 50%
 
-## Reference books
+## Reference books/links
 
 - James Munkres. *Topology*. Pearson, 2000.
 - Allen Hatcher. *Algebraic Topology*. Cambridge University Press, 2002. [Online version](https://pi.math.cornell.edu/~hatcher/AT/AT.pdf)
