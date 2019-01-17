@@ -18,4 +18,6 @@ title: Exercise sheet 1
 	b) Prove that if $r$ is large enough, then $f_r :S_r \to \mathbb{C}\setminus \{0\}$ is homotopic to the map $\theta_n: S_r \to \mathbb{C}\setminus\{0\}$, where $\theta_n(z) = z^n$. *(Hint: Of course, if $r$ is large enough then $f$ will not have a root in $S_r$. However, you have to choose a homotopy so that the throughout the homotopy there is no root in $S_r$. Note that if $\alpha$ is a root of $f$, then $-a_n \alpha^n = a_0 + a_1 \alpha + \cdots a_{n-1}\alpha^{n-1}$. By taking the modulus on both sides, show that $|\alpha|$ must be less than $|a_0| + |a_1|+ \cdots + |a_n|$ if $\alpha$ is a root such that $|\alpha|>1$. How is this useful?*)
 	c) Later in this course, will later prove that if $n>0$ then $\theta_n$ is not homotopic to a constant map. How will that help you to deduce the fundamental theorem of algebra?
 
- **to be updated**
+6. A map is said to be null-homotopic if it is homotopic to a constant map.
+	a) Prove that a space $X$ is contractible (homotopically equivalent to a point) if and only if the identity map $\mathrm{Id}_X$ is null-homotopic.
+	b) Prove that if $Y$ is contractible, then any continuous map $f:X\to Y$ is null-homotopic (and therefore, any two maps are homotopic).
