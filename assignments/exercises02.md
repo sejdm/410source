@@ -16,15 +16,12 @@ title: Exercise sheet 2
 	a) The fundamental group  of $\mathbb{R}^3_+$ minus a set $A$ is trivial if $A$ is a subset of the boundary.
 	
 	
-6. Let $A$ denote a subset of $\mathbb{R}^3$ that lies on the plane defined by $z=0$, and which is homeomorphic to $\mathbb{R}$. 
+6. Let $A$ denote a *closed* subset of $\mathbb{R}^3$ that lies on the plane defined by $z=0$, and which is homeomorphic to $\mathbb{R}$. 
 	a) Prove that the homeomorphism from $A$ to $\mathbb{R}$ can be extended to a homeomorphism from the plane defined by $z=0$ to $\mathbb{R}$ (Look up the statement of the Tietz extension theorem, if you have forgotten it).
 	b) Prove that there exists a homeomorphism from $\mathbb{R}^3$ to $\mathbb{R}^3$ so that the image of $A$ intersects every plane defined by $z=t$ in exactly one point, for each $t$.
 	c) Part b) should help you to prove that there exists a homeomorphism from $\mathbb{R}^3$ to $\mathbb{R}^3$ that maps $A$ to a straight line (in fact, the $z$-axis).
-	d) Prove that the fundamental group of $\mathbb{R}^3\setminus A$ is isomorphic to the fundamental group of the circle
 	d) Prove that the fundamental group of $\mathbb{R}^3\setminus A$ is isomorphic to the fundamental group of the circle.
 	*(When you study the Van Kampen theorem, you will see how this exercise and the previous one will help you to prove the Jordan Curve theorem)*
 
 
 7. What is the fundamental group of $\mathbb{R}^n\setminus \{0\}$, for each $n = 1, 2, \ldots$?
-
-**to be updated**

@@ -25,6 +25,13 @@ build:  assgnmnts
 deploy: build
 	stack exec blog deploy
 
+mdeploy: build
+	rsync -r _site/* /home/shane/mth410/
+	cd /home/shane/mth410
+	git add * || true
+	git commit -m "Minor" || true
+	git push
+
 rebuild: assgnmnts
 	stack exec blog rebuild
 
