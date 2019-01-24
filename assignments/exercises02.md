@@ -17,7 +17,7 @@ title: Exercise sheet 2
 	
 	
 6. Let $A$ denote a *closed* subset of $\mathbb{R}^3$ that lies on the plane defined by $z=0$, and which is homeomorphic to $\mathbb{R}$. 
-	a) Prove that the homeomorphism from $A$ to $\mathbb{R}$ can be extended to a homeomorphism from the plane defined by $z=0$ to $\mathbb{R}$ (Look up the statement of the Tietz extension theorem, if you have forgotten it).
+	a) Prove that the homeomorphism from $A$ to $\mathbb{R}$ can be extended to a continuous map from the plane defined by $z=0$ to $\mathbb{R}$ (Look up the statement of the Tietz extension theorem, if you have forgotten it).
 	b) Prove that there exists a homeomorphism from $\mathbb{R}^3$ to $\mathbb{R}^3$ so that the image of $A$ intersects every plane defined by $z=t$ in exactly one point, for each $t$.
 	c) Part b) should help you to prove that there exists a homeomorphism from $\mathbb{R}^3$ to $\mathbb{R}^3$ that maps $A$ to a straight line (in fact, the $z$-axis).
 	d) Prove that the fundamental group of $\mathbb{R}^3\setminus A$ is isomorphic to the fundamental group of the circle.
