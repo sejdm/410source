@@ -1,5 +1,5 @@
 ---
-title: Exercise sheet 2
+title: Exercise sheet 3
 ---
 
 1. Prove that the fundamental groups of homotopically equivalent spaces are isomorphic.
