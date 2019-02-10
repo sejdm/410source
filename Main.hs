@@ -359,7 +359,7 @@ poemsFldr = orderedFolder' "All Poems" "poems/*" "templates/poem.html" "template
 
 poemsFldrPoet = createAllPage "All Poems (by author)" "poems/*" "templates/poem.html" "templates/poemitem.html" "templates/poemsauthor.html" "poemsauthor.html" (sortusing "author") pnewdefaultCtx pnewdefaultCtx folderCtx poetsCtx
 
-assignmentsFldr = orderedFolder "All Exercise sheets" "assignments/*" "templates/assignment.html" "templates/assignmentitem.html" "templates/assignments.html" "assignments.html" (return . sortAssignments) newdefaultCtx newdefaultCtx assignmentCtx (const mempty)
+assignmentsFldr = orderedFolder "All the exercise sheets" "assignments/*" "templates/assignment.html" "templates/assignmentitem.html" "templates/assignments.html" "assignments.html" (return . sortAssignments) newdefaultCtx newdefaultCtx assignmentCtx (const mempty)
 
 postsFldr = orderedFolder "All posts" "posts/*" "templates/post.html" "templates/postitem.html" "templates/posts.html" "posts.html" recentFirst newdefaultCtx newdefaultCtx  postCtx (const mempty)
 

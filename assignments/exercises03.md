@@ -11,11 +11,11 @@ title: Exercise sheet 3
 4. The projective plane may be defined as a space obtained by identifying each point in the 2-sphere with its antipodal point.
 	a) Prove that the quotient map is a covering map.
 	b) Use part a) to deduce the fundamental group of the projective plane.
-	
-5. Prove that $\pi_1(X, x_0) \times \pi_1(Y, y_0) \cong \pi_1(X\times Y, (x_0, y_0)$. 
+
+
+5. Prove that $\pi_1(X, x_0) \times \pi_1(Y, y_0) \cong \pi_1(X\times Y, (x_0, y_0))$. 
 
 6. Compute the fundamental group of the torus, $S^1 \times S^1$.
 
 7. Consider the map $i : S^1 \to S^1 \times S^1$ defined by $i(x) = (x, 1)$. Prove that $i_*$ is an injective map between the respective fundamental groups.
 
-**to be updated**

@@ -1,0 +1,17 @@
+---
+title: Exercise sheet 5
+---
+
+1. Prove that if $f_i : X \to Y$, $i=1,2$ are covering maps, then so is $f_1 \times f_2 : X_1 \times X_2 \to Y_1 \times Y_2$.
+
+2. Prove that if $f : X \to Y$ is a covering map, and $A$ is a subspace of $Y$, then $f : f^{-1}(A) \to A$ is a covering map.
+
+3. If $f : X \to Y$ is a covering, then the set $f^{-1}(y)$ is called the fibre at $y$. Prove that if $Y$ is connected, and the fibre at one point is finite, then all fibres have the same number of elements.
+
+4. A covering map $f$ is said to be finite sheeted if all its fibres are finite. Prove that if $f$ is a finite sheeted covering and $g$ is another covering map, then $f \circ g$ is also a covering map.
+
+5. Find a cover of $S^1$ besides $\mathbb{R}$.
+
+6. Find an example of a local homeomorphism $f : X \to Y$ which is not a covering map.
+
+**to be updated**

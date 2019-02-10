@@ -8,7 +8,6 @@ Please check this website regularly for any updates.
 
 Quizzes may be held during any lecture/tutorial and at any time. Exercises are not to be submitted. They are for your own practice, especially to prepare for the quizzes and examinations.
 
-**IMPORTANT**  There will be a **quiz** this week (i.e. the week of the 21^st^ of January). Quizzes can be held on any day of the week.
 
 
 ## Grading scheme
